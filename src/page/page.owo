@@ -1,0 +1,116 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/d998fae6830db2ac.owo")
+  //- 题图
+  img.bg(src="@|bg.jpg|" style="width: 100%;height: auto;display: block;")
+  plug(_name="module69" _src="https://template.owo.ink/7f4e1f0f67d338e0.owo")
+  .w1200
+    .main.box.clear
+      .fl
+      ul.fr
+        li
+          a(href="#") 周晔：把《地方领导留言板》延伸到为民解忧的动力所在地
+        li
+          a(href="#") 周晔：把《地方领导留言板》延伸到为民解忧的动力所在地
+        li
+          a(href="#") 周晔：把《地方领导留言板》延伸到为民解忧的动力所在地
+        li
+          a(href="#") 周晔：把《地方领导留言板》延伸到为民解忧的动力所在地
+    .title 图片展示
+    plug.box(_name="module141" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
+    .title 最新稿件
+    ul.box.news-list.clear
+      li
+        a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      li
+        a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      li
+        a(href="#") 中央指导组深入扎实开展主题教育督促指导工作综述
+      li
+        a(href="#") 中央指导组深入扎实开展主题教育督促指导工作综述
+      li
+        a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      li
+        a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      li
+        a(href="#") 中央指导组深入扎实开展主题教育督促指导工作综述
+      li
+        a(href="#") 中央指导组深入扎实开展主题教育督促指导工作综述
+      li
+        a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      li
+        a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      li
+        a(href="#") 中央指导组深入扎实开展主题教育督促指导工作综述
+      li
+        a(href="#") 中央指导组深入扎实开展主题教育督促指导工作综述
+      li
+        a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      li
+        a(href="#") 中央“不忘初心、牢记使命”主题教育领导小组印发《通知》
+      li
+        a(href="#") 中央指导组深入扎实开展主题教育督促指导工作综述
+      li
+        a(href="#") 中央指导组深入扎实开展主题教育督促指导工作综述
+    plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.main {
+  height: 435px;
+  overflow:  hidden;
+  .fl {
+    width: 760px;
+    height: 435px;
+  }
+  .fr {
+    li {
+      background-color: #fbf2f2;
+      border-top: 3px solid #22399f;
+      height: 64px;
+      padding: 10px;
+      font-size: 20px;
+      width: 400px;
+      margin-bottom: 29px;
+      line-height: 32px;
+    }
+  }
+}
+.box {
+  margin-top: 40px;
+}
+.title {
+  color: #013795;
+  background-image: url('@|title-bg.png|');
+  line-height: 80px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: microsoft yahei ui-monospace;
+}
+.news-list {
+  li {
+    float: left;
+    width: 46%;
+    font-size: 18px;
+    line-height: 34px;
+    margin: 0 2%;
+    a {
+      display:  block;
+      color: #454545;
+    }
+  }
+}
+#copyright {
+  margin-top: 60px;
+}
+</style>

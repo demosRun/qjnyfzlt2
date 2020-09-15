@@ -1,0 +1,297 @@
+body, html, .page, .page-box {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+img {
+  border: none;
+}
+
+[route-active="false"] {
+  display: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header1 .w1000 {
+  width: 1000px;
+  margin: 0 auto;
+  height: 45px;
+}
+
+.header1 {
+  background: #fff;
+  height: 45px;
+  width: 100%;
+}
+
+.header1 .left {
+  float: left;
+  height: 45px;
+  width: 90px;
+  position: relative;
+}
+
+.header1 .left a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.header1 .left img {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.header1 em {
+  float: right;
+  line-height: 45px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.header1 em a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header1 em a:hover {
+  text-decoration: underline;
+}
+
+.header1 em,
+.header1 em a,
+.header1 em a:link,
+.header1 em a:visited,
+.header1 em a:hover {
+  color: #666;
+}
+.nav a:link,
+.nav a:visited {
+  color: #484848;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+
+.nav,
+.nav a:link,
+.nav a:visited,
+.nav a:hover {
+  color: #fff;
+}
+
+.nav {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 22px;
+  background: #003997;
+}
+
+.nav a {
+  margin: 0 10px;
+}
+.LbWMGSGs {
+  height: 210px;
+  width: 1100px;
+  margin: 0 50px;
+  position: relative;
+}
+
+.LbWMGSGs .swiper-container {
+  height: 100%;
+  width: 1050px;
+  position: relative;
+}
+
+.LbWMGSGs .swiper-container .swiper-item {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.LbWMGSGs .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.LbWMGSGs {
+  position: relative;
+}
+
+.LbWMGSGs .swiper-button {
+  position: absolute;
+  top: 0;
+  bottom: 30px;
+  margin: auto;
+  cursor: pointer;
+  z-index: 999;
+  background-image: none;
+}
+
+.LbWMGSGs .swiper-button-next {
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.LbWMGSGs .swiper-button-prev {
+  left: 0;
+}
+
+.LbWMGSGs a {
+  color: black;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.LbWMGSGs a img {
+  width: 100%;
+  height: 170px;
+  margin: 0 auto;
+  display: block;
+}
+
+.LbWMGSGs .image-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 30px;
+  font-size: 16px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.LbWMGSGs .swiper-slide {
+  position: relative;
+}
+
+.LbWMGSGs .swiper-slide .play-button {
+  position: absolute;
+  width: auto;
+  height: auto;
+  bottom: 60px;
+  left: 10px;
+}
+#copyright {
+  height: 60px;
+  padding: 40px 0;
+  position: relative;
+  font-size: 14px;
+  height: 60px;
+  color: #000000;
+  z-index: 999;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  background-color: transparent;
+}
+.main {
+  height: 435px;
+  overflow: hidden;
+}
+
+.main .fl {
+  width: 760px;
+  height: 435px;
+}
+
+.main .fr li {
+  background-color: #fbf2f2;
+  border-top: 3px solid #22399f;
+  height: 64px;
+  padding: 10px;
+  font-size: 20px;
+  width: 400px;
+  margin-bottom: 29px;
+  line-height: 32px;
+}
+
+.box {
+  margin-top: 40px;
+}
+
+.title {
+  color: #013795;
+  background-image: url('../resource/title-bg.png');
+  line-height: 80px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: microsoft yahei ui-monospace;
+}
+
+.news-list li {
+  float: left;
+  width: 46%;
+  font-size: 18px;
+  line-height: 34px;
+  margin: 0 2%;
+}
+
+.news-list li a {
+  display: block;
+  color: #454545;
+}
+
+#copyright {
+  margin-top: 60px;
+}
+
